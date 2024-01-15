@@ -120,18 +120,3 @@ body {
 .short-item:hover .audio-bar {
     display: block;
 }
-
-/* Styles for mobile users */
-@media only screen and (max-width: 767px) {
-    .play-button {
-        color: #fff; /* Make the icon visible for mobile users */
-    }
-
-    .audio-bar {
-        display: none; /* Remove the audio bar for mobile users */
-    }
-
-    .short-item:hover .play-button {
-        color: #fff; /* Make the icon visible on hover for mobile users */
-    }
-}
