@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const shortItems = document.querySelectorAll(".short-item");
     let currentVideoIndex = 0;
 
-    const totalVideos = 6; // Adjust this variable to the total number of videos you have
+    const totalVideos = 7; // Adjust this variable to the total number of videos you have
 
     const observerOptions = {
         root: null,
